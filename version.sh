@@ -6,10 +6,6 @@ if test "${git_hash}" != '$''Format:%h$'; then
   exit 0
 fi
 
-###############################################################################
-
-## METHOD 2: The source tree is a git repository.
-
 case $# in
   0) ;;
   1) if test ! -d "$1"; then
@@ -30,10 +26,6 @@ if test $? -eq 0; then
   echo "${git_hash}"
   exit 0
 fi
-
-###############################################################################
-
-## METHOD 3: Give up.
 
 echo "unknown"
 exit 0
