@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sambacha/secure-build/issues"
   },
-  "homepage": "https://github.com/sambacha/secure-build#readme"
+  "homepage": "https://github.com/sambacha/secure-build#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0"
+  }
 }
